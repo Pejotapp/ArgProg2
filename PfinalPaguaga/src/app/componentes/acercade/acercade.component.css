@@ -14,9 +14,22 @@ div{
     border-radius: 150px;
     border: 6.5px solid #284928;
     margin-right: 15px;
-    position: relative;
+    
+}
+@media(min-width: 480px){
+    #fotodeperfil{
+        position: absolute;
+        box-shadow: 3px 4px 3px black;
+        top: 760px;
+    }
 }
 
+@media(max-width: 480px){
+    #fotodeperfil{
+        position: absolute;
+        box-shadow: 3px 4px 3px black;
+        top: 760px;
+    }}
 
 /** Nombre, titulo **/
 
@@ -24,12 +37,15 @@ div{
     font-size: 55px;
     font-style: bold;
     
+    
+}
+#Titulo{
+    font-size: 35px;
+    font-style: italic;
 }
 
-#persona{
-    position: absolute;
-    
-
+#acercademi{
+    padding: 25px 0px;
 }
 
 .row{padding: 20px}

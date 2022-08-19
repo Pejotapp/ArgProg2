@@ -44,6 +44,11 @@ div{
     font-style: italic;
 }
 
+#persona{
+    position: none;
+}
+/** Parrafo de mi**/
+
 #acercademi{
     padding: 25px 0px;
 }

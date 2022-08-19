@@ -1,10 +1,35 @@
 div{
     background-color: #8CC38C;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
+
+
+/** Foto de perfil, borde, posicion**/
+
 #fotodeperfil{
-    width: 391px;
-    height: 482px;
+    width: 291px;
+    height: 382px;
     border-radius: 150px;
-    border: 6.5px solid #284928
+    border: 6.5px solid #284928;
+    margin-right: 15px;
+    position: relative;
 }
+
+
+/** Nombre, titulo **/
+
+#nombre{
+    font-size: 55px;
+    font-style: bold;
+    
+}
+
+#persona{
+    position: absolute;
+    
+
+}
+
+.row{padding: 20px}

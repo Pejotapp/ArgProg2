@@ -20,7 +20,7 @@ div{
     #fotodeperfil{
         position: absolute;
         box-shadow: 3px 4px 3px black;
-        top: 760px;
+        bottom: 10px;
     }
 }
 
@@ -28,7 +28,7 @@ div{
     #fotodeperfil{
         position: absolute;
         box-shadow: 3px 4px 3px black;
-        top: 760px;
+        bottom: 10px;
     }}
 
 /** Nombre, titulo **/

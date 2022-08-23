@@ -1,3 +1,27 @@
 #logoap{
     width: 150px;
+    margin-left:8px;
+}
+
+img{
+    width: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;;
+}
+
+.social{margin-right: 0.5cm;}
+
+.btn{
+    padding: 5px;
+    margin-right: 10px;
+}
+
+@media(max-width:576px){
+#logoap{margin-left: 4px;}
+.social{margin-right: 0.2cm;}
+.btn{margin-right: 5px;}
 }

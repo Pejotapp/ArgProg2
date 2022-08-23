@@ -16,19 +16,26 @@ div{
     margin-right: 15px;
     
 }
-@media(min-width: 480px){
+@media(min-width: 576px){
+
+ #nombre, #titulo{
+    right: 700px;
+    
+ }
+
     #fotodeperfil{
         position: absolute;
         box-shadow: 3px 4px 3px black;
-        bottom: 10px;
+        top: 600px;
+
     }
 }
 
-@media(max-width: 480px){
+@media(max-width: 576px){
     #fotodeperfil{
         position: absolute;
         box-shadow: 3px 4px 3px black;
-        bottom: 10px;
+        top: 600px;
     }}
 
 /** Nombre, titulo **/

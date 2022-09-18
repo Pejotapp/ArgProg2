@@ -25,7 +25,7 @@ public class ImpPersonaService implements IPersonaService {
 
     @Override
     public void savePersona(Persona persona) {
-ipersonarepository.save(persona);
+        ipersonarepository.save(persona);
     }
 
     @Override
@@ -35,8 +35,8 @@ ipersonarepository.save(persona);
 
     @Override
     public Persona findPersona(Long id) {
-      Persona persona = ipersonarepository.findById(id).orElse(null);
-      return persona;
+        Persona persona = ipersonarepository.findById(id).orElse(null);
+        return persona;
     }
 
 }

@@ -21,6 +21,9 @@ public class Rol {
   @Enumerated(EnumType.STRING)
   private RolNombre rolNombre;
   
+  //constructor
+  public Rol(){
+  }
   
   public Rol(RolNombre rolNombre){
   this.rolNombre = rolNombre;}

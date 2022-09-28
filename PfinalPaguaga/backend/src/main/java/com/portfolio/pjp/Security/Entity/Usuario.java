@@ -3,6 +3,7 @@ package com.portfolio.pjp.Security.Entity;
 
 import java.util.HashSet;
 import java.util.Set;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
@@ -22,6 +23,7 @@ public class Usuario {
     @NotNull
     private String nombre;
     @NotNull
+    @Column(unique = true)
     private String nombreUsuario;
     @NotNull
     private String email;

@@ -7,6 +7,7 @@ import javax.validation.constraints.NotBlank;
 public class LoginUsuario {
     @NotBlank
     private String nombreUsuario;
+    @NotBlank
     private String password; 
     
     //Getters y Setters

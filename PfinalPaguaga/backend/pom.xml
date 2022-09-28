@@ -31,9 +31,10 @@
         </dependency>
 
         <dependency>
-            <groupid>org.apache.commons</groupid>
+            <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <version>3.9</version>
+            <version>3.8.1</version>
+            <type>jar</type>
         </dependency>
 
         <dependency>

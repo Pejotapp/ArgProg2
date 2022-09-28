@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './componentes/header/header.component';
@@ -17,7 +17,13 @@ import { FooterComponent } from './componentes/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './componentes/home/home.component';
 import { LoginComponent } from './componentes/login/login.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NewExperienciaComponent } from './componentes/experiencias/new-experiencia.component';
+import { RouterModule } from '@angular/router';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/compiler';
+import { RouterOutlet } from '@angular/router';
+import { NO_ERRORS_SCHEMA } from '@angular/compiler';
+
 
 @NgModule({
   declarations: [
@@ -34,6 +40,8 @@ import { FormsModule } from '@angular/forms';
     FooterComponent,
     HomeComponent,
     LoginComponent,
+    NewExperienciaComponent,
+    
 
   ],
   imports: [
@@ -42,8 +50,16 @@ import { FormsModule } from '@angular/forms';
     NgCircleProgressModule.forRoot({}),
     HttpClientModule,
     FormsModule,
+    NgModule,
+    ReactiveFormsModule,
+    RouterModule,
+    RouterOutlet, 
+    BrowserAnimationsModule,
 
   ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA,
+  NO_ERRORS_SCHEMA ],
+
   providers: [],
   bootstrap: [AppComponent]
 })

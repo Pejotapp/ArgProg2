@@ -15,6 +15,10 @@ public class dtoExperiencia {
     
     public dtoExperiencia(){}
     
+    public dtoExperiencia(String nombreE, String descripcionE){
+    this.nombreE = nombreE;
+    this.descripcionE = descripcionE;}
+    
     //Getters Setters
 
     public String getNombreE() {
